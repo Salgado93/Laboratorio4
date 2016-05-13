@@ -27,18 +27,30 @@ int main (int argc, char* argv[]){
 				verbos[strlen(verbos)-2]='o';
 				verbos[strlen(verbos)-1] = ' ';
 				cout << "Presente: " << verbos << endl;
+				verbos[strlen(verbos)-2]='i';
+				verbos[strlen(verbos)-1] = ' ';
+				cout << "Pasado: " << verbos << endl;
 				
 
 			}
 			if (verbos[strlen(verbos)-2] == 'a' && verbos[strlen(verbos)-1] == 'r'){
-                                verbos[strlen(verbos)-2]='e';
+                                verbos[strlen(verbos)-2]='o';
                                 verbos[strlen(verbos)-1] = ' ';
                                 cout << "Presente: " <<  verbos << endl;
+				verbos[strlen(verbos)-2]='e';
+                                verbos[strlen(verbos)-1] = ' ';
+				cout << "Pasado: " << verbos << endl;
+
+
                         }
 			if (verbos[strlen(verbos)-2] == 'i' && verbos[strlen(verbos)-1] == 'r'){
                                 verbos[strlen(verbos)-2]='e';
                                 verbos[strlen(verbos)-1] = 's';
                                 cout << "Presente: " <<  verbos << endl;
+				verbos[strlen(verbos)-2]='i';
+                                verbos[strlen(verbos)-1] = 'o';
+                                cout << "Pasado: " << verbos << endl;
+
                         }
 
 
