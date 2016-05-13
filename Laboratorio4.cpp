@@ -52,6 +52,7 @@ int main (int argc, char* argv[]){
                                 cout << "Pasado: " << verbos << endl;
 
                         }
+			delete[] verbos;
 
 
 		}
